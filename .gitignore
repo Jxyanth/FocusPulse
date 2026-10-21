@@ -1,0 +1,28 @@
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Local environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Dependencies and generated output (if introduced later)
+node_modules/
+dist/
+build/
+coverage/
+
+# Editor-local settings; shared VS Code recommendations/tasks may be committed
+.vscode/*
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/tasks.json
+.idea/
